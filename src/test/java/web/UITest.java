@@ -51,12 +51,10 @@ public class UITest {
         //  шаги тест-кейса
 
         MainPage mainPage = new MainPage();
-        // Предусловие: открыта главная страница сайта https://at-sandbox.workbench.lanit.ru/
         driver.get("https://demoqa.com/automation-practice-form");
         String firstName ="Nada";
         String lastName = "Vi";
         String mobile_number = "89638549834";
-
 
         mainPage.createUser(firstName, lastName, mobile_number);
 
